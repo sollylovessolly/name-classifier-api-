@@ -177,7 +177,6 @@ app.delete('/api/profiles/:id', async (req, res) => {
     res.status(500).json({ status: 'error', message: 'Server error' });
   }
 });
-
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
 });

@@ -1,0 +1,14 @@
+{
+  "name": "hng-backend-stage1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "mongoose": "^8.5.0",
+    "uuid": "^11.0.0"
+  }
+}
